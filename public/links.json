@@ -25,6 +25,30 @@
             {
                 "name": "翻译1",
                 "url": "https://translate.google.com"
+            },
+                        {
+                "name": "Google2",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "GitHub2",
+                "url": "https://github.com"
+            },
+            {
+                "name": "翻译2",
+                "url": "https://translate.google.com"
+            },
+           {
+                "name": "Google3",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "GitHub3",
+                "url": "https://github.com"
+            },
+            {
+                "name": "翻译3",
+                "url": "https://translate.google.com"
             }
         ]
     },
@@ -52,5 +76,6 @@
     }
 
 ]
+
 
 
