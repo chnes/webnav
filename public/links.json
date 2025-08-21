@@ -13,31 +13,17 @@
             {
                 "name": "翻译",
                 "url": "https://translate.google.com"
-            }
-                    "links": [
-            {
-                "name": "Google",
+            },
+           {
+                "name": "Google1",
                 "url": "https://www.google.com"
             },
             {
-                "name": "GitHub",
+                "name": "GitHub1",
                 "url": "https://github.com"
             },
             {
-                "name": "翻译",
-                "url": "https://translate.google.com"
-            }
-                                "links": [
-            {
-                "name": "Google",
-                "url": "https://www.google.com"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com"
-            },
-            {
-                "name": "翻译",
+                "name": "翻译1",
                 "url": "https://translate.google.com"
             }
         ]
@@ -66,4 +52,5 @@
     }
 
 ]
+
 
