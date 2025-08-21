@@ -1,0 +1,14 @@
+{
+  "name": "private-nav",
+  "version": "1.0.0",
+  "description": "A private navigation page for Cloudflare Pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generate-hash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私人网址导航</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h1>请输入密码</h1>
+        <form id="login-form">
+            <input type="password" id="password-input" placeholder="Password" required>
+            <button type="submit">进入</button>
+        </form>
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <div id="nav-container" class="container hidden">
+        <header>
+            <h1>我的导航</h1>
+        </header>
+        <main id="links-grid"></main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+[
+    {
+        "category": "常用工具",
+        "links": [
+            {
+                "name": "Google",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com"
+            },
+            {
+                "name": "翻译",
+                "url": "https://translate.google.com"
+            }
+        ]
+    },
+    {
+        "category": "设计资源",
+        "links": [
+            {
+                "name": "Figma",
+                "url": "https://www.figma.com"
+            },
+            {
+                "name": "Dribbble",
+                "url": "https://dribbble.com"
+            }
+        ]
+    },
+    {
+        "category": "媒体",
+        "links": [
+            {
+                "name": "YouTube",
+                "url": "https://youtube.com"
+            }
+        ]
+    }
+]
