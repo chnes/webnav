@@ -1,7 +1,7 @@
 :root {
     --bg-color: #f5f5f7;
     --card-color: #ffffff;
-    --text-color: #333333;
+    --text-color: #0000FF;
     --primary-color: #4a90e2;
     --border-color: #e0e0e0;
 }
@@ -65,7 +65,7 @@ button:hover {
 /* 导航网格 - 卡片改小 */
 #links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     gap: 12px;
     margin-top: 20px;
 }
@@ -97,3 +97,4 @@ button:hover {
 .hidden {
     display: none;
 }
+
