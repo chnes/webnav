@@ -1,0 +1,248 @@
+:root {
+--primary-bg: #e0f2f7; /* 淡蓝色背景 /
+--secondary-bg: #fff; / 卡片和容器背景 */
+--primary-text: #212121;
+--secondary-text: #757575;
+--accent-color: #03a9f4;
+--border-color: #ddd;
+--link-color: #1976d2;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: var(--primary-bg);
+color: var(--primary-text);
+display: flex;
+justify-content: center;
+align-items: flex-start; /* 顶部对齐内容 /
+min-height: 100vh;
+overflow-x: hidden; / 防止水平滚动 */
+}
+
+.background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('https://via.placeholder.com/1920x1080/ADD8E6/FFFFFF/?Text=Ocean+Waves'); /* 您可以替换为真实的背景图片 URL /
+background-size: cover;
+background-position: center;
+z-index: -1;
+opacity: 0.7; / 调整透明度 */
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.main-container {
+background-color: rgba(255, 255, 255, 0.8); /* 半透明主容器 */
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+padding: 30px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.main-header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.main-header h1 {
+color: var(--primary-text);
+margin-bottom: 10px;
+}
+
+.main-header p {
+color: var(--secondary-text);
+font-size: 1rem;
+}
+
+.search-area {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.search-engines {
+list-style: none;
+padding: 0;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.search-engines li a {
+color: var(--link-color);
+text-decoration: none;
+font-size: 0.9rem;
+}
+
+.search-engines li a i {
+margin-right: 5px;
+}
+
+.search-bar {
+display: flex;
+max-width: 600px;
+margin: 0 auto;
+border: 1px solid var(--border-color);
+border-radius: 5px;
+overflow: hidden;
+background-color: var(--secondary-bg);
+}
+
+.search-bar input {
+flex-grow: 1;
+padding: 10px 15px;
+border: none;
+font-size: 1rem;
+color: var(--primary-text);
+}
+
+.search-bar button {
+background-color: var(--accent-color);
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 1rem;
+transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+background-color: #0288d1;
+}
+
+.navigation-area {
+margin-bottom: 30px;
+}
+
+.navigation-area h2 {
+color: var(--primary-text);
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+.navigation-area h2 i {
+margin-right: 10px;
+color: var(--accent-color);
+}
+
+#links-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+gap: 15px;
+}
+
+.link-card {
+background-color: var(--secondary-bg);
+padding: 15px;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+color: var(--primary-text);
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+transition: transform 0.2s, box-shadow 0.2s;
+border: 1px solid var(--border-color);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 80px;
+}
+
+.link-card:hover {
+transform: translateY(-3px);
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link-card h3 {
+margin-top: 5px;
+margin-bottom: 0;
+font-size: 0.9rem;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.link-card i {
+font-size: 1.5rem;
+margin-bottom: 5px;
+color: var(--accent-color); /* 您可以为图标设置特定颜色 */
+}
+
+/* 登录样式 (保持不变，但调整了容器) */
+.login-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 10;
+}
+
+.login-box {
+background-color: var(--secondary-bg);
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+
+.login-box h1 {
+color: var(--primary-text);
+margin-bottom: 20px;
+}
+
+#login-form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+max-width: 300px;
+margin: 0 auto;
+}
+
+#password-input {
+padding: 10px;
+border: 1px solid var(--border-color);
+border-radius: 5px;
+font-size: 1rem;
+color: var(--primary-text);
+}
+
+.login-box button {
+padding: 10px 15px;
+border: none;
+background-color: var(--accent-color);
+color: white;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1rem;
+transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+background-color: #0288d1;
+}
+
+#error-message {
+color: #ff4d4d;
+height: 20px;
+margin-top: 10px;
+}
+
+.hidden {
+display: none;
+}
